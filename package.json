@@ -1,0 +1,48 @@
+{
+  "name": "@technoparkneskar/sosmart",
+  "productName": "SoSmart",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Aplikasi socket pintar (SoSmart) dibuat dengan Electron + React.js + Vite",
+  "author": "Technopark Neskar <technoparkn@gmail.com>",
+  "license": "AGPL-3.0",
+  "main": "dist-electron/electron/main/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && electron-builder"
+  },
+  "engines": {
+    "node": ">=18.12.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "electron": "^21.3.1",
+    "electron-builder": "^23.6.0",
+    "postcss": "^8.4.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.56.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-electron-plugin": "^0.5.2",
+    "vite-plugin-electron-renderer": "^0.11.3"
+  },
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:7777"
+    }
+  },
+  "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.2.1",
+    "daisyui": "^2.43.2",
+    "keytar": "^7.9.0",
+    "react-router-dom": "^6.4.5"
+  }
+}

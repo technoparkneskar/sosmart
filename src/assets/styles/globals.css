@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	background-color: #DAEEB8 !important;
+}
+
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.tab-active {
+    background-color: #141925;
+    color: white;
+}
+
+.tab {
+    font-weight: 500;
+    height: 34px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid #141925;
+    white-space: nowrap;
+    border-radius: 9999px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.tab::-webkit-scrollbar {
+    display: none;
+}
+
+.blank-space1 {
+    height: 14rem;
+}
+
+.blank-space2 {
+    height: 12rem;
+}
+
+.blank-space3 {
+    height: 10rem;
+}
+
+.blank-space4 {
+    height: 8rem;
+}
+
+.blank-space5 {
+    height: 6rem;
+}
+
+.blank-space6 {
+    height: 4rem;
+}
